@@ -11,7 +11,7 @@ gem 'rspec-rails', '2.9.0'
 end
 
 gem 'bootstrap-sass', '2.0.0'
-
+gem 'annotate', '~> 2.4.1.beta'
 # Use SCSS for stylesheets
 group :assets do
 gem 'sass-rails', '~> 4.0.2'
@@ -39,6 +39,8 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+gem 'bcrypt-ruby', '3.1.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
